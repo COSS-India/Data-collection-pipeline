@@ -43,8 +43,9 @@ def register(clf: Classifier) -> Classifier:
 
 
 def get_classifiers(names: list[str] | None = None) -> list[Classifier]:
+    """Named classifiers, or by default the most recently registered one per task."""
     if names is None:
-        return list(_REGISTRY.values())
+        return list({c.task: c for c in _REGISTRY.values()}.values())
     return [_REGISTRY[n] for n in names]
 
 
@@ -53,3 +54,8 @@ def available() -> list[dict]:
 
 
 from dcp.classify import builtin  # noqa: E402,F401
+from dcp.classify import laya as _laya  # noqa: E402
+
+if _laya.URL:
+    for _task in ("agri", "agri_subdomain"):
+        register(_laya.LayaClassifier(_task))
