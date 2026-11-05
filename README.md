@@ -1,6 +1,6 @@
 # Data Collection Pipeline
 
-Turns any file-based text material into clean, sentence-level data with metadata, plus a web UI to evaluate the output.
+Turns file-based text material with directly extractable text (no OCR) into clean, sentence-level data with metadata, plus a web UI to evaluate the output.
 
 ```
 files ──► extract ──► normalize ──► sentence split ──► language + quality ──► dedupe ──► classify ──► JSONL / SQLite
@@ -40,7 +40,7 @@ uv run dcp run path/to/files_or_dirs -o output/sentences.jsonl [--usable-only]
 | Stage | Module | Notes |
 |---|---|---|
 | Extract | `dcp/extract/` | txt/md, csv/tsv, json/jsonl, html, epub, pdf, docx, pptx, xlsx, odt/odp. Register new types with `@register("type", ".ext")`. |
-| PDF OCR | `extract/pdf.py` | Pages with almost no text layer are OCR'd if `pytesseract` + Tesseract with `mar`/`hin` data are installed (`uv sync --extra ocr`; `brew install tesseract tesseract-lang`). |
+| PDFs | `extract/pdf.py` | Text layer only, no OCR. Scanned pages are skipped (a scanned-only PDF shows 0 sentences in the UI). |
 | Normalize | `normalize.py` | NFC, invisible chars, de-hyphenation, `|` → `।`. Keeps ZWJ/ZWNJ, which matter for Marathi conjuncts. |
 | Segment | `segment.py` | Splits on `।` `॥` `?` `!` `.`; protects abbreviations (`डॉ.`, `श्री.`, `Dr.`), decimals and initials; rejoins PDF soft-wrapped lines; separates list items. |
 | Language | `langid.py` | Script by Unicode range; Marathi vs Hindi by marker words, `ळ` frequency and Marathi's attached case suffixes. Heuristic baseline: swap in IndicLID or fastText when needed. |

@@ -1,18 +1,18 @@
-"""PDF extraction with PyMuPDF, falling back to OCR for scanned pages.
+"""PDF extraction from the embedded text layer with PyMuPDF. No OCR: scanned pages
+(no text layer) yield nothing and are logged.
 
-Many Marathi PDFs use legacy non-Unicode fonts (Shree-Lipi, Kruti Dev, ...).
-Text from those extracts as Latin gibberish; the quality stage flags it via
-`garbled_ratio`, and OCR is the usual fix.
+Many Marathi PDFs use legacy non-Unicode fonts (Shree-Lipi, Kruti Dev, ...) or broken
+font maps. Their text extracts as gibberish; the quality stage flags it
+(`broken_pdf_encoding`, `possibly_legacy_font`) so it stays out of the corpus.
 """
 
-import os
+import logging
 from pathlib import Path
 
 from dcp.extract import register
 from dcp.models import TextBlock
 
-OCR_LANGS = os.environ.get("DCP_OCR_LANGS", "mar+hin+eng")
-MIN_CHARS_PER_PAGE = 25
+log = logging.getLogger(__name__)
 
 
 @register("pdf", ".pdf")
@@ -20,28 +20,15 @@ def extract_pdf(path: Path) -> list[TextBlock]:
     import pymupdf
 
     blocks = []
+    no_text = 0
     with pymupdf.open(str(path)) as doc:
         for i, page in enumerate(doc, 1):
             # sort=True gives reading order for multi-column layouts.
             text = page.get_text("text", sort=True)
-            if len(text.strip()) < MIN_CHARS_PER_PAGE:
-                text = _ocr_page(page) or text
-                loc = f"page={i}:ocr"
+            if text.strip():
+                blocks.append(TextBlock(text, f"page={i}"))
             else:
-                loc = f"page={i}"
-            blocks.append(TextBlock(text, loc))
+                no_text += 1
+    if no_text:
+        log.info("%s: skipped %d page(s) with no text layer", path.name, no_text)
     return blocks
-
-
-def _ocr_page(page) -> str:
-    try:
-        import pytesseract
-        from PIL import Image
-    except ImportError:
-        return ""
-    pix = page.get_pixmap(dpi=300)
-    img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-    try:
-        return pytesseract.image_to_string(img, lang=OCR_LANGS)
-    except pytesseract.TesseractError:
-        return ""
