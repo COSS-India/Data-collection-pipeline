@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Start the Gemma 4 26B A4B classifier server (OpenAI-compatible API on 127.0.0.1:8000).
-# Settings approved for this project; see README "vLLM server" for what each flag does.
+# Settings approved for this project; see docs/TECHNICAL.md section 4 for what each flag does.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
