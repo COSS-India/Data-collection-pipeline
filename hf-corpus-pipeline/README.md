@@ -1,8 +1,9 @@
-# hf-corpus-pipeline: Marathi agriculture sentences from Hugging Face datasets
+# huggingface-corpus-pipeline: Marathi agriculture sentences from Hugging Face datasets
 
-Builds a corpus of **natural, human-written Marathi sentences about agriculture**, the source side of a Marathi↔English MT corpus. Text comes from open Hugging Face datasets. **Gemma 4 26B A4B**, served with vLLM, labels every sentence `AGRI` / `NON_AGRI` / `NOT_MARATHI`.
+Builds a corpus of **natural, human-written Marathi sentences about agriculture**,  Text comes from open Hugging Face datasets.
+ **Gemma 4 26B A4B**, served with vLLM, is used to classify and label every sentence into - `AGRI` / `NON_AGRI` / `NOT_MARATHI`.
 
-**Result (Draft v0.1):** 4.2M unique sentences labelled → **322,612 AGRI** → **322,222 released** (MILU removed).
+**Result (Draft v0.1):** 4.2M unique sentences labelled → **322,612 AGRI** → **322,222 released** (I have removed MILU sentences as MILU  dataset is used for evaluating datasents using the same in our corpus will add biase and effect eval if needed in future ).
 
 ## What the pipeline does
 
@@ -12,14 +13,14 @@ flowchart TD
         A1["Samanantar, Shrutilipi, IndicVoices, IndicVoices-R,<br/>Kathbath, Rasa, MILU"]
     end
     subgraph B["Path B: Sangraha verified, general web text"]
-        B1["3 files, web rows only<br/>501,062 documents"] --> B2["doc-filter<br/>Gemma reads a 200-word spread excerpt<br/>of each document: is it about farming?"]
+        B1["3 files, web rows only<br/>501,062 documents"] --> B2["doc-filter<br/>Gemma reads a 200-word spread excerpt<br/>verifies for  each document: is it about farming?"]
         B2 -.->|"467,241 non-agri docs"| B3["dropped, kept in audit file"]
     end
     R[("data/raw")]
     A1 -->|"ingest: text column only<br/>3,829,918 rows"| R
     B2 -->|"33,821 agri docs, 6.7%"| R
     R --> P["prepare<br/>clean → split into sentences → filter 3-200 words → dedup<br/>4,196,610 unique sentences"]
-    P --> C{"classify every sentence<br/>Gemma 4 26B A4B on vLLM"}
+    P --> C{"classify every sentence using <br/>Gemma 4 26B A4B hosted on vLLM"}
     C -->|"Path A sentences, prompt v1"| L1["60,925 AGRI"]
     C -->|"Path B sentences, prompt v2"| L2["261,687 AGRI"]
     L1 --> O["report → output/<br/>322,612 AGRI"]
@@ -27,8 +28,8 @@ flowchart TD
     O --> E["export_release → release/<br/>322,222 AGRI, MILU removed"]
 ```
 
-- **Path A, the 7 datasets:** mostly speech transcripts and parallel-corpus text, already short. Every sentence goes straight to the classifier. 1.7% turn out AGRI.
-- **Path B, Sangraha:** whole web articles, of which only ~7% are about farming. Classifying every sentence would take ~4 h of GPU per file, so Gemma first screens each **document**, and only agri documents are split into sentences. Each of those sentences is then still classified on its own; 39% are AGRI.
+- **Path A, the 7 datasets:** mostly speech transcripts and parallel-corpus text, already short. Every sentence goes straight to the classifier. 1.7% turn out AGRI. later the prompt used to classify was optimised into a better  prompt and used for the path B .
+- **Path B, Sangraha:** whole web articles, of which only ~7% are about farming. Classifying every sentence would take ~4 h of GPU per file, to save the time we did screening of every document  **document**, and only  documents with certain high confidence to have agri related info are split into sentences. Each of those sentences is then still classified on its own; 39% are AGRI.
 - **Dedup across both paths:** a Sangraha sentence already present in Path A is not added again (7,478 dropped).
 
 Each stage in detail: [docs/PIPELINE.md](docs/PIPELINE.md).
