@@ -1,0 +1,17 @@
+# Excerpt of logs/vllm_server.log (startup configuration and memory). Full log: 327 MB, not versioned.
+FlashInfer kernels are disabled: flashinfer-cubin is not installed and nvcc (CUDA_HOME, CUDA_PATH, PATH or /usr/local/cuda) or ninja (PATH) is missing. Set CUDA_HOME to a CUDA toolkit and put ninja on PATH, or run `vllm download-kernels`.
+(MainProcess pid=29071) INFO 11-05 21:36:11 [startup.py:38]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.33.0
+(MainProcess pid=29071) INFO 11-05 21:36:11 [startup.py:96] non-default args: {'model_tag': 'google/gemma-4-26B-A4B-it', 'api_server_count': 4, 'host': '127.0.0.1', 'model': 'google/gemma-4-26B-A4B-it', 'dtype': 'bfloat16', 'max_model_len': 4096, 'generation_config': 'vllm', 'gpu_memory_utilization': 0.9, 'enable_prefix_caching': True, 'limit_mm_per_prompt': {'image': 0}, 'max_num_batched_tokens': 16384, 'max_num_seqs': 512, 'async_scheduling': True}
+(MainProcess pid=29071) INFO 11-05 21:36:11 [model.py:744] Resolved architecture: Gemma4ForConditionalGeneration
+(MainProcess pid=29071) INFO 11-05 21:36:13 [scheduler.py:310] Chunked prefill is enabled with max_num_batched_tokens=16384.
+(MainProcess pid=29071) INFO 11-05 21:36:13 [config.py:364] Gemma4 model has heterogeneous head dimensions {'sliding_attention': 256, 'full_attention': 512}. FA4 not available, forcing TRITON_ATTN backend.
+(MainProcess pid=29071) INFO 11-05 21:36:13 [utils.py:261] Started 4 API server processes
+(EngineCore pid=29172) WARNING 11-05 21:36:18 [flashinfer.py:99] FlashInfer kernels are disabled: flashinfer-cubin is not installed and nvcc (CUDA_HOME, CUDA_PATH, PATH or /usr/local/cuda) or ninja (PATH) is missing. Set CUDA_HOME to a CUDA toolkit and put ninja on PATH, or run `vllm download-kernels`.
+(EngineCore pid=29172) INFO 11-05 21:36:22 [cuda.py:448] Using AttentionBackendEnum.TRITON_ATTN backend.
+(EngineCore pid=29172) INFO 11-05 21:36:22 [unquantized.py:365] Using TRITON Unquantized MoE backend out of potential backends: ['FlashInfer TRTLLM', 'FlashInfer CUTLASS', 'TRITON', 'BATCHED_TRITON'].
+(EngineCore pid=29172) INFO 11-05 21:42:47 [unquantized.py:530] Using TritonExperts MoE backend
+(EngineCore pid=29172) INFO 11-05 21:43:18 [gpu_worker.py:772] Available KV cache memory: 33.33 GiB
+(EngineCore pid=29172) INFO 11-05 21:43:18 [kv_cache_utils.py:1147] GPU KV cache size: 158,288 tokens, Maximum concurrency for 4,096 tokens per request: 38.64x
+(EngineCore pid=29172) INFO 11-05 21:43:27 [gpu_worker.py:1003] CUDA graph pool memory: 0.21 GiB (actual), 0.4 GiB (estimated), difference: 0.19 GiB (86.4%).
+(EngineCore pid=29172) INFO 11-05 21:43:27 [gpu_worker.py:1066] Free memory on device (94.27/94.97 GiB) on startup. Desired GPU memory utilization is (0.9, 85.48 GiB). Actual usage is 50.84 GiB for consumed memory (weights + non-torch), 1.31 GiB for peak activation, and 0.21 GiB for CUDAGraph memory. Replace gpu_memory_utilization config with `--kv-cache-memory=35398353716` (32.97 GiB) to fit into requested memory, or `--kv-cache-memory=44836573184` (41.76 GiB) to fully utilize gpu memory. Current kv cache memory in use is 33.33 GiB.
+(EngineCore pid=29172) INFO 11-05 21:43:29 [core.py:405] init engine (profile, create kv cache, warmup model) took 41.63 s (compilation: 0.58 s)

@@ -1,0 +1,2 @@
+21:49:19 INFO marathi_agri.classify: trial: 20000 sentences in 59.2s = 338 sentences/s -> /home/ubuntu/data-collection/output/trial.csv
+21:49:19 INFO marathi_agri.classify: trial labels: [('NON_AGRI', 18727), ('NOT_MARATHI', 904), ('AGRI', 369)]

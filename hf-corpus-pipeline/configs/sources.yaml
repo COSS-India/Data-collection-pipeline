@@ -1,0 +1,82 @@
+# Hugging Face sources. ORDER MATTERS: when the same sentence appears in several
+# sources, the copy from the source listed first is kept (punctuated sources first,
+#
+# files: glob patterns relative to the dataset repo root.
+# text_column: verified against the parquet schema by `marathi-agri check`.
+# revision: null = resolve the current commit at ingest time (recorded in data/manifest.json).
+
+sources:
+  - key: kathbath
+    hf_id: ai4bharat/Kathbath
+    files: ["marathi/*.parquet"]
+    text_column: text
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/Kathbath
+    notes: Read-speech prompts (text originally from IndicCorp).
+
+  - key: shrutilipi
+    hf_id: ai4bharat/Shrutilipi
+    files: ["marathi/*.parquet"]
+    text_column: text
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/Shrutilipi
+    notes: All India Radio news bulletin text aligned to audio.
+
+  - key: rasa
+    hf_id: ai4bharat/Rasa
+    files: ["Marathi/*.parquet"]
+    text_column: text
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/Rasa
+    notes: Expressive TTS prompts.
+
+  - key: indicvoices
+    hf_id: ai4bharat/IndicVoices
+    files: ["marathi/*.parquet"]
+    text_column: text
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/IndicVoices
+    notes: Human transcripts of read, extempore and conversational speech. `text` = normalized spelling (`verbatim` keeps pronunciation spellings).
+
+  - key: indicvoices_r
+    hf_id: ai4bharat/indicvoices_r
+    files: ["Marathi/*.parquet"]
+    text_column: text
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/indicvoices_r
+    notes: Subset of IndicVoices; duplicates are removed by the dedup stage.
+
+  - key: milu
+    hf_id: ai4bharat/MILU
+    files: ["Marathi/*.parquet"]
+    text_column: question
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/MILU
+    notes: Benchmark MCQ questions. Using them in training data contaminates MILU evals; set enabled false to exclude.
+
+  - key: samanantar
+    hf_id: shivam/marathi_samanantar_processed
+    files: ["data/*.parquet"]
+    text_column: text
+    license: "unknown (derived from Samanantar, CC0)"
+    url: https://huggingface.co/datasets/shivam/marathi_samanantar_processed
+    notes: Marathi side of Samanantar, punctuation stripped. No license stated on the card.
+
+  - key: sangraha
+    hf_id: ai4bharat/sangraha
+    files:
+      - verified/mar/data-0.parquet
+      - verified/mar/data-1.parquet
+      - verified/mar/data-2.parquet
+    text_column: text
+    id_column: doc_id
+    row_filter: {type: web}
+    doc_filter: true
+    license: CC-BY-4.0
+    url: https://huggingface.co/datasets/ai4bharat/sangraha
+    notes: >-
+      Sangraha verified, Marathi, web rows only (pdf = OCR, speech = transcripts are skipped).
+      General web text: documents are screened by the doc-level classifier and only agri
+      documents are split into sentences. 3 of 34 files; add more file paths to extend.
+
+# Not used: ARTPARK-IISc/Vaani (audio only, no transcripts).

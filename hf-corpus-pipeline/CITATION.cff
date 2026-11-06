@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or the Marathi agriculture sentence corpus, please cite it as below,
+  and also cite the upstream datasets listed under references.
+title: "Marathi agriculture sentence corpus (Draft v0.1)"
+type: software
+version: 0.1.0
+date-released: 2026-11-06
+license: Apache-2.0
+authors:
+  - name: "The marathi-agri-corpus authors"
+keywords:
+  - Marathi
+  - agriculture
+  - corpus
+  - machine translation
+  - text classification
+references:
+  - type: dataset
+    title: "Sangraha (IndicLLMSuite)"
+    authors: [{family-names: Khan, given-names: Mohammed Safi Ur Rahman}]
+    notes: "ACL 2024. ai4bharat/sangraha, CC-BY-4.0"
+  - type: dataset
+    title: "Samanantar"
+    authors: [{family-names: Ramesh, given-names: Gowtham}]
+    notes: "TACL 2022"
+  - type: dataset
+    title: "Shrutilipi"
+    authors: [{family-names: Bhogale, given-names: Kaushal Santosh}]
+    notes: "ICASSP 2023. ai4bharat/Shrutilipi, CC-BY-4.0"
+  - type: dataset
+    title: "IndicVoices"
+    authors: [{family-names: Javed, given-names: Tahir}]
+    notes: "ACL Findings 2024. ai4bharat/IndicVoices, CC-BY-4.0"
+  - type: dataset
+    title: "IndicVoices-R"
+    authors: [{family-names: Sankar, given-names: Ashwin}]
+    notes: "NeurIPS 2024 Datasets & Benchmarks. ai4bharat/indicvoices_r, CC-BY-4.0"
+  - type: dataset
+    title: "Kathbath (IndicSUPERB)"
+    authors: [{family-names: Javed, given-names: Tahir}]
+    notes: "AAAI 2023. ai4bharat/Kathbath, CC-BY-4.0"
+  - type: dataset
+    title: "Rasa"
+    authors: [{name: AI4Bharat}]
+    notes: "ai4bharat/Rasa, CC-BY-4.0"

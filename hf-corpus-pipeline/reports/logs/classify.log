@@ -1,0 +1,352 @@
+21:54:13 INFO marathi_agri.classify: classify: 3532758 unique, 0 already done, 3532758 to do
+21:56:13 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+21:56:13 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+21:56:13 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+21:56:13 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+21:56:43 INFO marathi_agri.classify: shard 00000: 50000 sentences in 150s (333/s), 0 errors
+21:58:49 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+21:58:49 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+21:58:49 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+21:58:49 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+21:59:21 INFO marathi_agri.classify: shard 00001: 50000 sentences in 158s (317/s), 0 errors
+22:01:23 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:01:23 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:01:23 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:01:26 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:01:56 INFO marathi_agri.classify: shard 00002: 50000 sentences in 155s (323/s), 0 errors
+22:04:02 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:04:02 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:04:03 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:04:04 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:04:35 INFO marathi_agri.classify: shard 00003: 50000 sentences in 159s (314/s), 0 errors
+22:06:35 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:06:35 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:06:36 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:06:37 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:07:06 INFO marathi_agri.classify: shard 00004: 50000 sentences in 151s (332/s), 0 errors
+22:09:05 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:09:05 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+22:09:06 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:09:07 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:09:36 INFO marathi_agri.classify: shard 00005: 50000 sentences in 151s (331/s), 0 errors
+22:11:43 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:11:44 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:11:44 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:11:46 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:12:16 INFO marathi_agri.classify: shard 00006: 50000 sentences in 159s (314/s), 0 errors
+22:14:19 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:14:19 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:14:20 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:14:22 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:14:51 INFO marathi_agri.classify: shard 00007: 50000 sentences in 155s (323/s), 0 errors
+22:16:59 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:16:59 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:17:00 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:17:00 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:17:32 INFO marathi_agri.classify: shard 00008: 50000 sentences in 161s (310/s), 0 errors
+22:19:42 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:19:42 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:19:42 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:19:43 INFO marathi_agri.classify:   10000/12500 classified (76 sentences/s)
+22:20:16 INFO marathi_agri.classify: shard 00009: 50000 sentences in 164s (306/s), 0 errors
+22:22:20 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:22:20 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:22:21 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:22:22 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:22:51 INFO marathi_agri.classify: shard 00010: 50000 sentences in 156s (321/s), 0 errors
+22:25:00 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:25:01 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:25:01 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:25:02 INFO marathi_agri.classify:   10000/12500 classified (76 sentences/s)
+22:25:33 INFO marathi_agri.classify: shard 00011: 50000 sentences in 162s (309/s), 0 errors
+22:27:34 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:27:35 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:27:35 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:27:35 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:28:05 INFO marathi_agri.classify: shard 00012: 50000 sentences in 152s (329/s), 0 errors
+22:30:06 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:30:07 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:30:08 INFO marathi_agri.classify:   10000/12500 classified (82 sentences/s)
+22:30:09 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:30:38 INFO marathi_agri.classify: shard 00013: 50000 sentences in 153s (326/s), 0 errors
+22:32:38 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:32:39 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:32:39 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:32:39 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:33:08 INFO marathi_agri.classify: shard 00014: 50000 sentences in 150s (333/s), 0 errors
+22:35:08 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+22:35:09 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:35:09 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:35:09 INFO marathi_agri.classify:   10000/12500 classified (83 sentences/s)
+22:35:38 INFO marathi_agri.classify: shard 00015: 50000 sentences in 150s (334/s), 0 errors
+22:37:42 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:37:44 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:37:44 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:37:45 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:38:15 INFO marathi_agri.classify: shard 00016: 50000 sentences in 157s (318/s), 0 errors
+22:40:20 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:40:21 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:40:22 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:40:24 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:40:53 INFO marathi_agri.classify: shard 00017: 50000 sentences in 158s (316/s), 0 errors
+22:42:57 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:42:57 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:42:57 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:42:58 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:43:30 INFO marathi_agri.classify: shard 00018: 50000 sentences in 156s (320/s), 0 errors
+22:45:34 INFO marathi_agri.classify:   10000/12500 classified (81 sentences/s)
+22:45:35 INFO marathi_agri.classify:   10000/12500 classified (80 sentences/s)
+22:45:36 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:45:36 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:46:05 INFO marathi_agri.classify: shard 00019: 50000 sentences in 155s (322/s), 0 errors
+22:48:11 INFO marathi_agri.classify:   10000/12500 classified (79 sentences/s)
+22:48:13 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:48:13 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:48:13 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:48:43 INFO marathi_agri.classify: shard 00020: 50000 sentences in 158s (317/s), 0 errors
+22:50:51 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:50:51 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:50:52 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:50:53 INFO marathi_agri.classify:   10000/12500 classified (77 sentences/s)
+22:51:23 INFO marathi_agri.classify: shard 00021: 50000 sentences in 160s (312/s), 0 errors
+22:53:31 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:53:31 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:53:32 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:53:32 INFO marathi_agri.classify:   10000/12500 classified (78 sentences/s)
+22:54:03 INFO marathi_agri.classify: shard 00022: 50000 sentences in 160s (313/s), 0 errors
+22:56:01 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+22:56:01 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+22:56:03 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+22:56:03 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+22:56:32 INFO marathi_agri.classify: shard 00023: 50000 sentences in 148s (337/s), 0 errors
+22:58:28 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+22:58:29 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+22:58:29 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+22:58:29 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+22:58:58 INFO marathi_agri.classify: shard 00024: 50000 sentences in 146s (342/s), 0 errors
+23:00:53 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:00:53 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:00:53 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:00:55 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:01:22 INFO marathi_agri.classify: shard 00025: 50000 sentences in 144s (347/s), 0 errors
+23:03:17 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:03:17 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:03:18 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:03:18 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:03:47 INFO marathi_agri.classify: shard 00026: 50000 sentences in 145s (346/s), 0 errors
+23:05:41 INFO marathi_agri.classify:   10000/12500 classified (88 sentences/s)
+23:05:41 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:05:42 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:05:42 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:06:10 INFO marathi_agri.classify: shard 00027: 50000 sentences in 143s (348/s), 0 errors
+23:08:04 INFO marathi_agri.classify:   10000/12500 classified (88 sentences/s)
+23:08:04 INFO marathi_agri.classify:   10000/12500 classified (88 sentences/s)
+23:08:04 INFO marathi_agri.classify:   10000/12500 classified (88 sentences/s)
+23:08:05 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:08:33 INFO marathi_agri.classify: shard 00028: 50000 sentences in 143s (351/s), 0 errors
+23:10:28 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:10:28 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:10:29 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:10:29 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:10:57 INFO marathi_agri.classify: shard 00029: 50000 sentences in 144s (347/s), 0 errors
+23:12:52 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:12:53 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:12:54 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:12:54 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:13:22 INFO marathi_agri.classify: shard 00030: 50000 sentences in 146s (343/s), 0 errors
+23:15:19 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:15:19 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:15:19 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:15:19 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:15:48 INFO marathi_agri.classify: shard 00031: 50000 sentences in 146s (343/s), 0 errors
+23:17:43 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:17:43 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:17:43 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:17:44 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:18:10 INFO marathi_agri.classify: shard 00032: 50000 sentences in 143s (351/s), 0 errors
+23:20:07 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:20:08 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:20:08 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:20:08 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:20:36 INFO marathi_agri.classify: shard 00033: 50000 sentences in 146s (343/s), 0 errors
+23:22:32 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:22:32 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:22:32 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:22:33 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:23:01 INFO marathi_agri.classify: shard 00034: 50000 sentences in 144s (346/s), 0 errors
+23:24:55 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:24:56 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:24:56 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:24:56 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:25:24 INFO marathi_agri.classify: shard 00035: 50000 sentences in 143s (350/s), 0 errors
+23:27:18 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:27:18 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:27:18 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:27:19 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:27:48 INFO marathi_agri.classify: shard 00036: 50000 sentences in 144s (347/s), 0 errors
+23:29:43 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:29:43 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:29:43 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:29:44 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:30:12 INFO marathi_agri.classify: shard 00037: 50000 sentences in 144s (347/s), 0 errors
+23:32:08 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:32:08 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:32:08 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:32:08 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:32:37 INFO marathi_agri.classify: shard 00038: 50000 sentences in 145s (344/s), 0 errors
+23:34:32 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:34:33 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:34:33 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:34:34 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:35:02 INFO marathi_agri.classify: shard 00039: 50000 sentences in 145s (344/s), 0 errors
+23:36:57 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:36:58 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:36:59 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:36:59 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:37:27 INFO marathi_agri.classify: shard 00040: 50000 sentences in 145s (346/s), 0 errors
+23:39:25 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:39:25 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:39:26 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:39:26 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:39:55 INFO marathi_agri.classify: shard 00041: 50000 sentences in 148s (339/s), 0 errors
+23:41:52 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:41:52 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:41:53 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:41:53 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:42:21 INFO marathi_agri.classify: shard 00042: 50000 sentences in 146s (342/s), 0 errors
+23:44:19 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:44:19 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:44:19 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:44:19 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:44:48 INFO marathi_agri.classify: shard 00043: 50000 sentences in 147s (340/s), 0 errors
+23:46:44 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:46:44 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:46:44 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:46:44 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:47:12 INFO marathi_agri.classify: shard 00044: 50000 sentences in 144s (347/s), 0 errors
+23:49:09 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:49:10 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:49:11 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:49:11 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:49:40 INFO marathi_agri.classify: shard 00045: 50000 sentences in 147s (339/s), 0 errors
+23:51:34 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:51:34 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:51:34 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:51:35 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:52:04 INFO marathi_agri.classify: shard 00046: 50000 sentences in 145s (345/s), 0 errors
+23:54:01 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:54:03 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:54:03 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:54:04 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:54:32 INFO marathi_agri.classify: shard 00047: 50000 sentences in 147s (339/s), 0 errors
+23:56:29 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:56:29 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:56:29 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+23:56:30 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+23:56:59 INFO marathi_agri.classify: shard 00048: 50000 sentences in 147s (340/s), 0 errors
+23:58:54 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+23:58:55 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:58:55 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:58:55 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+23:59:24 INFO marathi_agri.classify: shard 00049: 50000 sentences in 145s (344/s), 0 errors
+00:01:19 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:01:19 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:01:20 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:01:21 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:01:49 INFO marathi_agri.classify: shard 00050: 50000 sentences in 145s (346/s), 0 errors
+00:03:45 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:03:46 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:03:46 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:03:47 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:04:14 INFO marathi_agri.classify: shard 00051: 50000 sentences in 146s (343/s), 0 errors
+00:06:11 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:06:11 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:06:12 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:06:12 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:06:42 INFO marathi_agri.classify: shard 00052: 50000 sentences in 147s (340/s), 0 errors
+00:08:38 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:08:38 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:08:38 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:08:38 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:09:07 INFO marathi_agri.classify: shard 00053: 50000 sentences in 146s (343/s), 0 errors
+00:11:03 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:11:04 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:11:04 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:11:04 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:11:33 INFO marathi_agri.classify: shard 00054: 50000 sentences in 145s (344/s), 0 errors
+00:13:30 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:13:30 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:13:30 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:13:31 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:14:00 INFO marathi_agri.classify: shard 00055: 50000 sentences in 147s (341/s), 0 errors
+00:15:56 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:15:57 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:15:57 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:15:57 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:16:25 INFO marathi_agri.classify: shard 00056: 50000 sentences in 146s (343/s), 0 errors
+00:18:22 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:18:22 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:18:22 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:18:23 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:18:52 INFO marathi_agri.classify: shard 00057: 50000 sentences in 146s (342/s), 0 errors
+00:20:46 INFO marathi_agri.classify:   10000/12500 classified (88 sentences/s)
+00:20:47 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:20:47 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:20:47 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:21:15 INFO marathi_agri.classify: shard 00058: 50000 sentences in 144s (348/s), 0 errors
+00:23:11 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:23:12 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:23:12 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:23:12 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:23:40 INFO marathi_agri.classify: shard 00059: 50000 sentences in 145s (344/s), 0 errors
+00:25:38 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:25:38 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:25:39 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+00:25:39 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+00:26:08 INFO marathi_agri.classify: shard 00060: 50000 sentences in 148s (339/s), 0 errors
+00:28:04 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:28:05 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:28:05 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:28:05 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:28:33 INFO marathi_agri.classify: shard 00061: 50000 sentences in 145s (345/s), 0 errors
+00:30:28 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:30:29 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:30:29 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:30:29 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:30:58 INFO marathi_agri.classify: shard 00062: 50000 sentences in 145s (344/s), 0 errors
+00:32:53 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:32:53 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:32:54 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:32:54 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:33:22 INFO marathi_agri.classify: shard 00063: 50000 sentences in 144s (348/s), 0 errors
+00:35:17 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:35:18 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:35:18 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:35:19 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:35:47 INFO marathi_agri.classify: shard 00064: 50000 sentences in 145s (345/s), 0 errors
+00:37:45 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:37:45 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:37:45 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+00:37:46 INFO marathi_agri.classify:   10000/12500 classified (84 sentences/s)
+00:38:14 INFO marathi_agri.classify: shard 00065: 50000 sentences in 147s (340/s), 0 errors
+00:40:11 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:40:11 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:40:12 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:40:12 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:40:40 INFO marathi_agri.classify: shard 00066: 50000 sentences in 146s (342/s), 0 errors
+00:42:36 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:42:37 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:42:37 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:42:38 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:43:06 INFO marathi_agri.classify: shard 00067: 50000 sentences in 146s (343/s), 0 errors
+00:45:02 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:45:03 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:45:03 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:45:03 INFO marathi_agri.classify:   10000/12500 classified (85 sentences/s)
+00:45:32 INFO marathi_agri.classify: shard 00068: 50000 sentences in 146s (342/s), 0 errors
+00:47:28 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:47:28 INFO marathi_agri.classify:   10000/12500 classified (87 sentences/s)
+00:47:28 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:47:28 INFO marathi_agri.classify:   10000/12500 classified (86 sentences/s)
+00:47:57 INFO marathi_agri.classify: shard 00069: 50000 sentences in 145s (344/s), 0 errors
+00:49:35 INFO marathi_agri.classify: shard 00070: 32758 sentences in 98s (336/s), 0 errors

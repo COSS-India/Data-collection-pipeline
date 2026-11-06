@@ -1,0 +1,20 @@
+# Python / tooling
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Pipeline data: large and regenerable. Only the small evaluation sets are versioned.
+# (`!data/` re-includes the folder, which the repo-root .gitignore ignores with `data/`)
+!data/
+data/*
+!data/eval/
+
+# Corpus outputs and release build (published on Hugging Face / GitHub Releases, not in git)
+/output/
+/release/
+
+# Raw run logs (small copies live in reports/logs/)
+/logs/

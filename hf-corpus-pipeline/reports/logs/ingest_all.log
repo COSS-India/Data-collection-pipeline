@@ -1,0 +1,51 @@
+21:29:58 INFO marathi_agri.ingest: ai4bharat/Kathbath: 39 files at revision 5b9e928492
+21:30:00 INFO marathi_agri.ingest:   [10/39] files, 22130 rows so far (last: marathi/train-00009-of-00038.parquet)
+21:30:09 INFO marathi_agri.ingest:   [20/39] files, 44254 rows so far (last: marathi/train-00019-of-00038.parquet)
+21:30:16 INFO marathi_agri.ingest:   [30/39] files, 66374 rows so far (last: marathi/train-00029-of-00038.parquet)
+21:30:24 INFO marathi_agri.ingest:   [39/39] files, 86448 rows so far (last: marathi/valid-00000-of-00001.parquet)
+21:30:24 INFO marathi_agri.ingest: kathbath: 86448 rows
+21:30:24 INFO marathi_agri.ingest: ai4bharat/Shrutilipi: 85 files at revision f4beb2f2cf
+21:30:46 INFO marathi_agri.ingest:   [10/85] files, 39590 rows so far (last: marathi/train-00009-of-00085.parquet)
+21:30:56 INFO marathi_agri.ingest:   [20/85] files, 79180 rows so far (last: marathi/train-00019-of-00085.parquet)
+21:31:05 INFO marathi_agri.ingest:   [30/85] files, 118770 rows so far (last: marathi/train-00029-of-00085.parquet)
+21:31:18 INFO marathi_agri.ingest:   [40/85] files, 158360 rows so far (last: marathi/train-00039-of-00085.parquet)
+21:31:33 INFO marathi_agri.ingest:   [50/85] files, 197945 rows so far (last: marathi/train-00049-of-00085.parquet)
+21:31:45 INFO marathi_agri.ingest:   [60/85] files, 237525 rows so far (last: marathi/train-00059-of-00085.parquet)
+21:31:59 INFO marathi_agri.ingest:   [70/85] files, 277105 rows so far (last: marathi/train-00069-of-00085.parquet)
+21:32:13 INFO marathi_agri.ingest:   [80/85] files, 316685 rows so far (last: marathi/train-00079-of-00085.parquet)
+21:32:16 INFO marathi_agri.ingest:   [85/85] files, 336475 rows so far (last: marathi/train-00084-of-00085.parquet)
+21:32:16 INFO marathi_agri.ingest: shrutilipi: 336475 rows
+21:32:16 INFO marathi_agri.ingest: ai4bharat/Rasa: 64 files at revision 632f55c7ac
+21:32:20 INFO marathi_agri.ingest:   [10/64] files, 4414 rows so far (last: Marathi/train-00002-of-00057.parquet)
+21:32:22 INFO marathi_agri.ingest:   [20/64] files, 9144 rows so far (last: Marathi/train-00012-of-00057.parquet)
+21:32:24 INFO marathi_agri.ingest:   [30/64] files, 13874 rows so far (last: Marathi/train-00022-of-00057.parquet)
+21:32:26 INFO marathi_agri.ingest:   [40/64] files, 18604 rows so far (last: Marathi/train-00032-of-00057.parquet)
+21:32:29 INFO marathi_agri.ingest:   [50/64] files, 23334 rows so far (last: Marathi/train-00042-of-00057.parquet)
+21:32:31 INFO marathi_agri.ingest:   [60/64] files, 28064 rows so far (last: Marathi/train-00052-of-00057.parquet)
+21:32:32 INFO marathi_agri.ingest:   [64/64] files, 29955 rows so far (last: Marathi/train-00056-of-00057.parquet)
+21:32:32 INFO marathi_agri.ingest: rasa: 29955 rows
+21:32:32 INFO marathi_agri.ingest: ai4bharat/IndicVoices: 73 files at revision c96f9088f1
+21:32:36 INFO marathi_agri.ingest:   [10/73] files, 41570 rows so far (last: marathi/train-00009-of-00072.parquet)
+21:32:39 INFO marathi_agri.ingest:   [20/73] files, 83140 rows so far (last: marathi/train-00019-of-00072.parquet)
+21:32:41 INFO marathi_agri.ingest:   [30/73] files, 124708 rows so far (last: marathi/train-00029-of-00072.parquet)
+21:32:43 INFO marathi_agri.ingest:   [40/73] files, 166268 rows so far (last: marathi/train-00039-of-00072.parquet)
+21:32:47 INFO marathi_agri.ingest:   [50/73] files, 207828 rows so far (last: marathi/train-00049-of-00072.parquet)
+21:32:48 INFO marathi_agri.ingest:   [60/73] files, 249388 rows so far (last: marathi/train-00059-of-00072.parquet)
+21:32:51 INFO marathi_agri.ingest:   [70/73] files, 290948 rows so far (last: marathi/train-00069-of-00072.parquet)
+21:32:52 INFO marathi_agri.ingest:   [73/73] files, 302939 rows so far (last: marathi/valid-00000-of-00001.parquet)
+21:32:52 INFO marathi_agri.ingest: indicvoices: 302939 rows
+21:32:52 INFO marathi_agri.ingest: ai4bharat/indicvoices_r: 65 files at revision 5f4495c91d
+21:32:55 INFO marathi_agri.ingest:   [10/65] files, 2751 rows so far (last: Marathi/train-00007-of-00063.parquet)
+21:32:56 INFO marathi_agri.ingest:   [20/65] files, 5731 rows so far (last: Marathi/train-00017-of-00063.parquet)
+21:32:58 INFO marathi_agri.ingest:   [30/65] files, 8711 rows so far (last: Marathi/train-00027-of-00063.parquet)
+21:33:00 INFO marathi_agri.ingest:   [40/65] files, 11691 rows so far (last: Marathi/train-00037-of-00063.parquet)
+21:33:01 INFO marathi_agri.ingest:   [50/65] files, 14671 rows so far (last: Marathi/train-00047-of-00063.parquet)
+21:33:04 INFO marathi_agri.ingest:   [60/65] files, 17651 rows so far (last: Marathi/train-00057-of-00063.parquet)
+21:33:04 INFO marathi_agri.ingest:   [65/65] files, 19141 rows so far (last: Marathi/train-00062-of-00063.parquet)
+21:33:04 INFO marathi_agri.ingest: indicvoices_r: 19141 rows
+21:33:04 INFO marathi_agri.ingest: ai4bharat/MILU: 2 files at revision 846d701655
+21:33:05 INFO marathi_agri.ingest:   [2/2] files, 7734 rows so far (last: Marathi/validation-00000-of-00001.parquet)
+21:33:05 INFO marathi_agri.ingest: milu: 7734 rows
+21:33:05 INFO marathi_agri.ingest: shivam/marathi_samanantar_processed: 1 files at revision 1b42b3e6bc
+21:33:05 INFO marathi_agri.ingest:   [1/1] files, 3047226 rows so far (last: data/train-00000-of-00001.parquet)
+21:33:05 INFO marathi_agri.ingest: samanantar: 3047226 rows

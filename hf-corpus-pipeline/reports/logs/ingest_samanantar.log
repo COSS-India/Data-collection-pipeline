@@ -1,0 +1,3 @@
+20:32:00 INFO marathi_agri.ingest: shivam/marathi_samanantar_processed: 1 files at revision 1b42b3e6bc
+20:33:00 INFO marathi_agri.ingest:   [1/1] data/train-00000-of-00001.parquet -> 3047226 rows
+20:33:00 INFO marathi_agri.ingest: samanantar: 3047226 rows
